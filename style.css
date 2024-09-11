@@ -1,0 +1,63 @@
+
+https://fonts.google.com/share?selection.family=Roboto+Slab:wght@100;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: blueviolet;
+    width: 20vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 72px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: pink;
+    width: 90vw;
+}
+.container{ 
+    display: flex;
+}
+.infocontainer{
+    background-color: gray;
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.About{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttons button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: black;
+    border-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+
+}
